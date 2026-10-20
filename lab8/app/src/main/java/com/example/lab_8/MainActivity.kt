@@ -43,7 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 fun GreetingPreview() {
     Lab8Theme {
         Greeting("Android")
-    }
-}
+    } }
 
 // Beep beep electromagnetic radiosheep.
+// Second beep.
