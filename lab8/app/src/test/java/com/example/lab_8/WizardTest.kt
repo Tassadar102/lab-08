@@ -57,6 +57,8 @@ class WizardTest {
 
     @Test
     fun train_not_enough_mana() {
+        // This will never test false when there is no implementation, but it can test false when
+        // there is a bad implementation.
         evilWizard.mana = 4 // Set mana too low to train.
         evilWizard.train()
 
